@@ -2,7 +2,7 @@
 
 This is a PCraster implementation of the dual source hybrid (Penman Monteith) method for modelling ET (EG Guan and Wilson 2009). It is a coupled model, that combines simple representations of the atmosphere, soil and vegetation. An overview of model function and conceptualisation is given in two simple flow diagrams. 
 
-The model requires LULC and DEM rasters as inputs. It attempts to adopt a parsimonious approach to metereological forcing requirements, and uses the dew point method to avoid estimates of Relative Humidity (See Allen et al., 1998). It requires
+The model requires LULC and DEM rasters as inputs. It attempts to adopt a parsimonious approach to metereological forcing requirements, and uses the dew point method to avoid estimates of Relative Humidity (See Allen et al., 1998). It requires only vegetation height to calculate aerodynamic resistances. 
 
 Comments in the model point towards relevant academic literature for sources. 
 
