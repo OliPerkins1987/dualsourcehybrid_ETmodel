@@ -79,7 +79,7 @@ initial
  ### Ground level radiation - see Paulescu et al., 2016
  Angstrom_Prescott_cloudy = 0.19840; #empirical coefficient 
  Angstrom_Prescott_clear  = 0.55161; # empirical coefficient
- Angstrom_Prescott_altitude = 0.04571*(Dem/1000); # impact of 
+ Angstrom_Prescott_altitude = 0.04571*(Dem/1000); # impact of topography
 
  ### Net longwave radiation 
  Stefan_Boltzmann = 4.903 * (10**-9); #MJ K-4 m-2 day-1
